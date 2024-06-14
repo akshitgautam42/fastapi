@@ -26,7 +26,7 @@ app.add_middleware(
 )
 
 # API key for Cartesia TTS
-api_key = os.environ['TTS_API_KEY']
+api_key = os.getenv("TTS_API_KEY")#['TTS_API_KEY']
 assert api_key is not None
 
 # Create TTS client
