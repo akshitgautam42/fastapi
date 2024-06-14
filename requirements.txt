@@ -5,3 +5,4 @@ soundfile==0.12.1
 requests==2.26.0
 cartesia==0.1.0
 numpy == 1.26.4
+hypercorn==0.14.4
